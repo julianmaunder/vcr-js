@@ -3,9 +3,9 @@
 	src: url("fonts/CAMCORDER_REG.otf") format("opentype");
 }
 
-html {
-	overflow-x: hidden;
-}
+*::selection {
+	background: #FF39EC;
+	}
 
 body {
 	width: 100%;
@@ -28,10 +28,6 @@ a:hover {
 	color: #FF39EC;
 }
 
-a:hover:after {
-	content: " <";
-}
-
 p {
 	margin: 0;
 }
@@ -40,9 +36,6 @@ p {
 	font-size: 150%;
 }
 
-.play:hover:after {
-	content: none;
-}
 
 .sidebar {
 	position: fixed;
@@ -51,16 +44,14 @@ p {
 }
 
 .content {
+	position: fixed;
 	max-width: 1200px;
+	margin-top: 2em;
 	margin-left: 7em;
 }
 
 img.center {
-	display: block;
-	margin-top: 1.5em;
-	margin-bottom: 0;
-	margin-left: auto;
-  margin-right: auto;
+	margin-left: 1em;
 	width: 600px;
 	height: 350px;
 }
