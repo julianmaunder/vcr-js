@@ -1,39 +1,55 @@
 
 @font-face {
-font-family: CAMCORDER_REG;
-src: url("CAMCORDER_REG.otf") format("opentype");
+	font-family: CAMCORDER_REG;
+	src: url("CAMCORDER_REG.otf") format("opentype");
 }
 
 body {
 	width: 100%;
 	overflow-x: hidden;
-	background: url(vhs.jpg) bottom left repeat-y;
-	background-attachment:fixed;
-	-webkit-background-size: 1440px 19440px;
+	background: url(vhs.jpg) top left repeat-y;
+	background-attachment: fixed;
+	-webkit-background-size: 100% 19440px;
 	font-family: CAMCORDER_REG, sans-serif;
 	color: #fff;
 	font-size: 400%;
 	text-shadow: 2px 2px 0 black, -2px -2px 0 black;
 }
 
+h1 {
+	margin-bottom: 0.25em;
+}
+
 a {
 	color: #fff;
 	font-style: normal;
 	text-decoration: none;	
+	margin: 0;
 }
 
-.vhs {
+p {
+	margin: 0;
+}
+
+.play {
+	font-size: 150%;
+}
+
+.sidebar {
 	position: fixed;
-	top: 100px;
-	left: 100px;
+	top: 1em;
+	left: 2em;
 	opacity: 0.8;
 }
 
 .desc {
-	position: relative;
-	top: 37px;
-	left: 350px;
+	margin-left: 7em;
+	margin-top: 2.4em;
 	opacity: 0.8;
+}
+
+.twitter {
+	font-size: 50%;
 }
 
 .extend {
