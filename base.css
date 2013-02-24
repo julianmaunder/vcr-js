@@ -11,7 +11,7 @@ div {
 body {
 	width: 100%;
 	overflow-x: hidden;
-	background: url(vcr.jpg) repeat-y;
+	background: url(vcr.jpg) repeat-y, blue;
 	background-attachment: fixed;
 	-webkit-background-size: 100% 19440px;
 	font-family: CAMCORDER_REG, sans-serif;
