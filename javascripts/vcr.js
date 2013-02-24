@@ -17,14 +17,7 @@ $(document).ready(function(){
 
     $('#bottom').click(function(){
         $('html, body').animate({scrollTop:$(document).height()}, 4000);
-        return false;
+        $('html, body').animate({scrollTop: 0 }, 0);
     });
-
-    $(window).scroll(function() {
-   		if($(window).scrollTop() + $(window).height() == $(document).height()) {
-      	$('html, body').animate({scrollTop: 0 }, 0);
-  		}
-		});
-
-
+    
 });
