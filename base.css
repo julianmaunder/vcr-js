@@ -1,4 +1,8 @@
 
+div {
+	box-sizing: border-box;
+}
+
 @font-face {
 	font-family: CAMCORDER_REG;
 	src: url("CAMCORDER_REG.otf") format("opentype");
@@ -7,7 +11,7 @@
 body {
 	width: 100%;
 	overflow-x: hidden;
-	background: url(vhs.jpg) top left repeat-y;
+	background: url(vcr.jpg) repeat-y;
 	background-attachment: fixed;
 	-webkit-background-size: 100% 19440px;
 	font-family: CAMCORDER_REG, sans-serif;
@@ -17,7 +21,12 @@ body {
 }
 
 h1 {
-	margin-bottom: 0.25em;
+	font-size: 300%;
+	margin: 0;
+}
+
+h2 {
+	
 }
 
 a {
@@ -28,7 +37,7 @@ a {
 }
 
 p {
-	margin: 0;
+margin: 0;
 }
 
 .play {
@@ -43,8 +52,8 @@ p {
 }
 
 .desc {
-	margin-left: 7em;
-	margin-top: 2.4em;
+	margin-left: 6em;
+	margin-top: 2.5em;
 	opacity: 0.8;
 }
 
