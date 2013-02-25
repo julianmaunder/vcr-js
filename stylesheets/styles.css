@@ -7,29 +7,62 @@
 	background: #FF39EC;
 	}
 
+html, h1, h2, h3, a, p {
+	font-size: 46px;
+	line-height: 1.1;
+	font-family: CAMCORDER_REG, monospace, sans-serif;
+	color: #ddd;
+}
+
 body {
+	margin: 0;
+	padding: 0;
 	width: 100%;
-	background: url(../images/vcr-black.jpg) repeat-y, blue;
+	background: url(../images/vcr-black.jpg) top left repeat-y, blue;
 	background-attachment: fixed;
 	-webkit-background-size: 100% 19440px;
-	font-family: CAMCORDER_REG, sans-serif;
-	color: #ddd;
-	font-size: 300%;
+		 -moz-background-size: 100% 19440px;
+			-ms-background-size: 100% 19440px;
+					background-size: 100% 19440px;
 }
 
 a {
-	color: #ddd;
+	text-shadow: -2px 2px 0 #FF39EC;
+;
 	font-style: normal;
 	text-decoration: none;	
 	margin: 0;
 }
 
 a:hover {
-	color: #FF39EC;
+	color: #fff;
+	background: #FF39EC;
+	font-style: normal;
 }
 
 p {
 	margin: 0;
+}
+
+em {
+	background: #FF39EC;
+	font-style: normal;
+	padding: 0 0.2em;
+}
+
+.image-replacement {
+	display: block;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
 }
 
 .play-button {
@@ -40,17 +73,17 @@ p {
 .sidebar {
 	position: fixed;
 	top: 1em;
-	left: 2em;
+	left: 1em;
 }
 
 .content {
-	position: fixed;
-	max-width: 1200px;
+	position: relative;
+	max-width: 750px;
 	margin-top: 2em;
 	margin-left: 7em;
 }
 
-img.center {
+.center {
 	margin-left: 1em;
 	width: 600px;
 	height: 350px;
