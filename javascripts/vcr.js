@@ -8,16 +8,19 @@ $(document).ready(function(){
                     
 		$(window).scroll(function() {
 
-				var yPos = (Math.round(($window.scrollTop() * 100) / 1080) * 1080);
-				var coords = '0% -'+ yPos + 'px';
+			var yPos = (Math.round(($window.scrollTop() * 100) / 1080) * 1080);
+			var coords = '0% -'+ yPos + 'px';
 
-				$('body').css({ backgroundPosition: coords });
+			$('body').css({ backgroundPosition: coords });
 		});
 	});
 
-    $('#bottom').click(function(){
-        $('html, body').animate({scrollTop:$(document).height()}, 8000);
-        $('html, body').animate({scrollTop: 0 }, 0);
+  $('#bottom').click(function(){
+  	$('#main').addClass('content-fixed');
+    $('html, body').stop(true).animate({scrollTop:$(document).height()}, 4000);
+    $('html, body').animate({scrollTop: 0 }, 0, function() {
+    	$('#main').removeClass('content-fixed');
     });
+  });
     
 });

@@ -4,7 +4,7 @@
 }
 
 *::selection {
-	background: #FF39EC;
+	background: #FF39FD;
 	}
 
 html, h1, h2, h3, a, p {
@@ -27,8 +27,7 @@ body {
 }
 
 a {
-	text-shadow: -2px 2px 0 #FF39EC;
-;
+	text-shadow: -1px 1px 0 #FF39EC;
 	font-style: normal;
 	text-decoration: none;	
 	margin: 0;
@@ -50,6 +49,12 @@ em {
 	padding: 0 0.2em;
 }
 
+h2 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
 .image-replacement {
 	display: block;
 	width: 0;
@@ -59,16 +64,22 @@ em {
 	padding: 0;
 }
 
-h2 {
-	margin: 0;
-	padding: 0;
-	font-weight: normal;
-}
-
 .play-button {
-	font-size: 150%;
+	font-size: 200%;
+	line-height: 1;
+	padding: 0.25em 0.5em;
 }
 
+ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+li {
+	float: left;
+	padding-left: 1em;
+}
 
 .sidebar {
 	position: fixed;
@@ -79,11 +90,18 @@ h2 {
 .content {
 	position: relative;
 	max-width: 750px;
-	margin-top: 2em;
-	margin-left: 7em;
+	margin: 1em auto;
 }
 
-.center {
+.content-fixed {
+	position: fixed;
+	left: 50%;
+	max-width: 750px;
+	margin: 1em auto;
+	margin-left: -375px;
+}
+
+.logo {
 	margin-left: 1em;
 	width: 600px;
 	height: 350px;
