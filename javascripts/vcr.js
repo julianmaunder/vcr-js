@@ -17,7 +17,7 @@ $(document).ready(function(){
   //DEMO
   $('#bottom').click(function(){
  	$('#main').addClass('content-fixed');
-  $('html, body').stop(true).animate({scrollTop:$(document).height()}, 4000);
+  $('html, body').stop(true).animate({scrollTop:$(document).height()}, 2000);
   $('html, body').animate({scrollTop: 0 }, 0, function() {
   	$('#main').removeClass('content-fixed');
     });
