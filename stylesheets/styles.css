@@ -81,6 +81,11 @@ li {
 	padding-left: 1em;
 }
 
+#date {
+	float: right;
+	margin-right: 1em;
+}
+
 .sidebar {
 	position: fixed;
 	top: 1em;
