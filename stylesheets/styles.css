@@ -79,10 +79,6 @@ h3 {
 	text-shadow: none;
 }
 
-.play-button:hover {
-	background: #666;
-}
-
 ul {
 	list-style-type: none;
 	margin: 0 auto;
@@ -103,7 +99,7 @@ li {
 .sidebar {
 	position: fixed;
 	top: 1.75em;
-	left: 2em;
+	left: 1em;
 }
 
 .content {
@@ -130,4 +126,22 @@ li {
 	width: 100%;
 	display: block;
 	height: 4000px;
+}
+
+@media screen and (max-width: 1200px) {
+
+	#github-data {
+		position: relative;
+		top: 0;
+		left: 5em;
+		padding-top: 1em;
+	}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+	.sidebar {
+		display: none;
+	} 
 }
