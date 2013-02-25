@@ -73,14 +73,14 @@ h3 {
 	font-size: 200%;
 	line-height: 1;
 	padding: 0 0.5em;
-	background:  #666;
+	background: #ddd;
 	border-radius: 10px;
 	color: #222;
-	text-shadow: -2px -2px 0 #666;
+	text-shadow: none;
 }
 
 .play-button:hover {
-	background: #444;
+	background: #666;
 }
 
 ul {
@@ -102,7 +102,7 @@ li {
 
 .sidebar {
 	position: fixed;
-	top: 2.25em;
+	top: 1.75em;
 	left: 2em;
 }
 
