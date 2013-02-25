@@ -25,7 +25,7 @@ $(document).ready(function(){
     
   //LAST COMMIT
   $.getJSON('https://api.github.com/repos/julianmaunder/vcr-js/commits', function(gitResults) {
-  	$('#date').html(gitResults.commit.author.date)
+  	$('#date').text((gitResults.committer.date))
   });
 
 });
