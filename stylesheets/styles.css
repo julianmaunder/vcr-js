@@ -40,6 +40,7 @@ a:hover {
 
 p {
 	margin: 0;
+	font-size: 75%;
 }
 
 em {
@@ -51,6 +52,11 @@ em {
 h2 {
 	margin: 0;
 	padding: 0;
+	font-weight: normal;
+}
+
+h3 {
+	font-style: italic;
 	font-weight: normal;
 }
 
@@ -66,21 +72,15 @@ h2 {
 .play-button {
 	font-size: 200%;
 	line-height: 1;
-	padding: 0.25em 0.5em;
-	background: #FF39EC;
-	border: solid 10px #ff6bfd;
-	border-left: solid 10px #FF39EC;
-	border-top: solid 10px #FF39EC;
+	padding: 0 0.5em;
+	background:  #666;
+	border-radius: 10px;
+	color: #222;
+	text-shadow: -2px -2px 0 #666;
 }
 
 .play-button:hover {
-	border: solid 10px #FF39EC;;
-}
-
-.play-button:active {
-	border: solid 10px #dd17ca;
-	border-right: solid 10px #FF39EC;
-	border-bottom: solid 10px #FF39EC;
+	background: #444;
 }
 
 ul {
@@ -95,15 +95,15 @@ li {
 }
 
 #github-data {
-		position: fixed;
-		top: 1em;
+		position: absolute;
+		top: 2em;
 		right: 1em;
 	}
 
 .sidebar {
 	position: fixed;
-	top: 2em;
-	left: 1em;
+	top: 2.25em;
+	left: 2em;
 }
 
 .content {
