@@ -61,6 +61,14 @@ h3 {
 	font-weight: normal;
 }
 
+pre {
+	font-size: 40%;
+	padding: 0.5em;
+	border-left: 5px solid #ddd;
+	background: #000;
+	overflow-x: scroll;
+}
+
 .image-replacement {
 	display: block;
 	width: 0;
@@ -75,7 +83,7 @@ h3 {
 	line-height: 1;
 	padding: 0 0.5em;
 	background: #ddd;
-	border-radius: 10px;
+	border-radius: 20px;
 	color: #222;
 	text-shadow: none;
 }
@@ -98,7 +106,7 @@ li {
 	}
 
 .sidebar {
-	position: fixed;
+	position: relative;
 	top: 1.75em;
 	left: 1em;
 }
@@ -107,7 +115,7 @@ li {
 	position: relative;
 	left: 50%;
 	width: 750px;
-	margin: 1em auto;
+	margin: 0 auto 2em;
 	margin-left: -375px;
 }
 
@@ -126,12 +134,6 @@ li {
 	width: 600px;
 	height: 350px;
 	margin-left: 1em;
-}
-
-.extend {
-	width: 100%;
-	display: block;
-	height: 4000px;
 }
 
 @media screen and (max-width: 1200px) {

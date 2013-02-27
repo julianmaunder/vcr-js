@@ -7,7 +7,9 @@
 
 	<link rel="image_src" href="http://julianmaunder.github.com/vcr-js/images/thumbnail.jpg" />
 	<link rel="icon" type="image/png" href="favicon.png">
+
 	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="javascripts/vcr.js"></script>
 
@@ -18,6 +20,7 @@
 	<meta property="og:description" content="A Retro VHS static effect for your page." />
 	<meta property="og:url" content="http://julianmaunder.github.com/vcr-js/" />
 	<meta property="fb:admins" content="100004328254581" />
+
 	<!-- twitter meta data -->
 	<meta name="twitter:card" content="VCR.JS"/>
 	<meta name="twitter:url" content="http://julianmaunder.github.com/vcr-js/"/>
@@ -26,6 +29,7 @@
 	<meta name="twitter:image" content="http://julianmaunder.github.com/vcr-js/thumbnail.jpg"/>
 	<meta name=”twitter:creator” value=”@julianmaunder” />
 
+	<!-- Google Analytics -->
 	<script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-38816660-1']);
@@ -59,13 +63,38 @@
 	<h2>--SCROLL TO ADJUST TRACKING</h2>
 	<br>
 	<h3>INSTRUCTIONS</h3>
+	<p>1. Clone the repo or <a href="https://dl.dropbox.com/u/60943841/vcr.zip">download the zip</a>.</p>
+<pre>
+git clone git://github.com/julianmaunder/vcr-js.git
+</pre>
+	<br>
+	<p>2. Add jQuery and vcr.js to your html page.</p>
+<pre>
+&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+&lt;script type="text/javascript" src="CUSTOMIZE_THIS_URL/vcr.js"> &lt;/script>
+</pre>
+<br>
+	<p>3 Add this CSS to your stylesheet.</p>
+<pre>
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: url("../images/vcr-black.jpg" top left repeat-y;
+  background-attachment: fixed;
+  -webkit-background-size: 100% 19440px;
+     -moz-background-size: 100% 19440px;
+      -ms-background-size: 100% 19440px;
+          background-size: 100% 19440px;
+}
+</pre>
+<br>
+	<p><em>ENJOY YOUR COOL GLITCHY RETRO WEBSITE.</em></p>
 </div>
 
 <div id="github-data">
 	<p id="date">LAST UPDATE:<br></p>
 </div>
-
-<div class="extend"></div>
 
 </body>
 </html>
