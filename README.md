@@ -37,10 +37,10 @@ body {
 	width: 100%;
 	background: url("../images/vcr-black.jpg") top left repeat-y, blue;
 	background-attachment: fixed;
-	-webkit-background-size: 100% 19440px;
-		 -moz-background-size: 100% 19440px;
-			-ms-background-size: 100% 19440px;
-					background-size: 100% 19440px;
+    -webkit-background-size: 100% 19440px;
+       -moz-background-size: 100% 19440px;
+        -ms-background-size: 100% 19440px;
+  	        background-size: 100% 19440px;
 }
 ```
 
