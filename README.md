@@ -51,8 +51,8 @@ It's important to note that this probably won't work in very old browsers, it wi
 
 ###To Do
 
-1.convert to javascript and add background position polyfill
+1.Convert to vanilla Javascript and add background position polyfill.
 
-2.add more flavours of static
+2.Add more flavours of static.
 
-3.record screencast
+3.Record screencast.
