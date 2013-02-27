@@ -3,11 +3,7 @@
 <url>
     <loc>http://julianmaunder.github.com/vcr-js/</loc>
     <priority>1</priority>
-    <image:image>
-     <image:loc>http://julianmaunder.github.com/vcr-js/images/thumbnail.jpg</image:loc>
-   </image:image>
 </url>
-
 <sitemap>
 	<loc>http://julianmaunder.github.com/vcr-js/</loc>
 </sitemap>
