@@ -45,7 +45,10 @@ p {
 }
 
 i {
-	font-size: 75%;
+	display: block;
+	padding-bottom: 1em;
+	font-size: 60%;
+	color: red;
 }
 
 em {
