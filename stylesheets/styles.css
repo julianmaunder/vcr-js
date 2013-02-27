@@ -126,9 +126,6 @@ li:first-child {
 	width: 600px;
 	height: 350px;
 	margin: 0 auto;
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='images/logo.gif',
-	sizingMethod='scale')";
 }
 
 @media screen and (max-width: 1200px) {
