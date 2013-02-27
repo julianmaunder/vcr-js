@@ -1,4 +1,4 @@
-vhs-js
+VCR.JS
 ======
 
-VHS.JS - Static while you scroll.
+##[VCR.JS](http://julianmaunder.github.com/vhs-js/) - VHS style static while you scroll.
