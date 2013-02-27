@@ -16,18 +16,15 @@
 ##Instructions
 
 1. Clone the repo or [download the zip](https://dl.dropbox.com/u/60943841/vcr.zip).
-
 ```
 git clone git://github.com/julianmaunder/vcr-js.git
 ```
 2. VCR.JS add jQuery and vcr.js to your html page.
-
 ```html
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="scripts/vcr.js"></script>
 ```
 3. Add this CSS to your stylesheet.
-
 ```css
 	body {
 	margin: 0;
