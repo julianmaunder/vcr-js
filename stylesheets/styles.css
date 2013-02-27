@@ -107,6 +107,8 @@ li:first-child {
 		position: absolute;
 		top: 1em;
 		right: 1em;
+		padding-bottom: 1em;
+		max-width: 8em;
 	}
 
 .content {
@@ -129,10 +131,7 @@ li:first-child {
 @media screen and (max-width: 1200px) {
 
 	#github-data {
-		position: relative;
-		top: 0;
-		left: 2em;
-		max-width: 18em;
+		font-size: 70%;
 	}
 
 }
@@ -143,6 +142,12 @@ li:first-child {
 		position: static;
 		width: 90%;
 		margin: 1em auto;
+	}
+
+		#github-data {
+		position: relative;
+		top: 0;
+		left: 2em;
 	}
 
 }
