@@ -10,7 +10,7 @@
 
 </pre>
 
-#[VCR.JS](http://julianmaunder.github.com/vhs-js/) --###VHS style static while you scroll.
+#[VCR.JS](http://julianmaunder.github.com/vhs-js/) ###VHS style static while you scroll.
 
 ##Instructions
 
