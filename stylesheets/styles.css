@@ -106,7 +106,7 @@ li:first-child {
 #github-data {
 		position: absolute;
 		top: 1em;
-		left: 1em;
+		right: 1em;
 	}
 
 .content {
@@ -131,7 +131,7 @@ li:first-child {
 	#github-data {
 		position: relative;
 		top: 0;
-		left: 1em;
+		left: 2em;
 	}
 
 }
