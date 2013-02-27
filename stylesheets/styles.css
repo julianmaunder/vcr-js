@@ -126,13 +126,17 @@ li:first-child {
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
 
 	#github-data {
 		position: relative;
 		top: 0;
 		left: 1em;
 	}
+
+}
+
+@media screen and (max-width: 1024px) {
 
 	.content {
 		position: static;
