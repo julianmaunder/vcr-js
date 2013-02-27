@@ -7,7 +7,7 @@
 	background: #FF39FD;
 	}
 
-html, h1, h2, h3, a, p {
+html, h1, h2, h3 {
 	font-size: 46px;
 	line-height: 1.1;
 	font-family: CAMCORDER_REG, monospace, sans-serif;
@@ -27,6 +27,7 @@ body {
 }
 
 a {
+	color: #ddd;
 	text-shadow: -1px 1px 0 #FF39EC;
 	font-style: normal;
 	text-decoration: none;	
