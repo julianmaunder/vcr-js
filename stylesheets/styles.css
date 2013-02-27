@@ -106,7 +106,7 @@ li:first-child {
 #github-data {
 		position: absolute;
 		top: 1em;
-		right: 1em;
+		left: 1em;
 		margin: 1em;
 	}
 
@@ -149,7 +149,7 @@ li:first-child {
 		width: 90%;
 	}
 
-	body, h2 {
+	body, h2, h3 {
 		font-size: 24px;
 	}
 
