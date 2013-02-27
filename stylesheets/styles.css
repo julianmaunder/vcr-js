@@ -8,7 +8,7 @@
 	}
 
 html, h1, h2, h3 {
-	font-size: 46px;
+	font-size: 40px;
 	line-height: 1.1;
 	font-family: CAMCORDER_REG, monospace, sans-serif;
 	color: #ddd;
@@ -41,6 +41,10 @@ a:hover {
 
 p {
 	margin: 0;
+	font-size: 75%;
+}
+
+i {
 	font-size: 75%;
 }
 
