@@ -25,7 +25,7 @@ git clone git://github.com/julianmaunder/vcr-js.git
 
 ```html
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="scripts/vcr.js"></script>
+<script type="text/javascript" src="your_site/scripts/vcr.js"></script>
 ```
 
 3 Add this CSS to your stylesheet.
