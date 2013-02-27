@@ -132,11 +132,6 @@ li:first-child {
 
 	#github-data {
 		font-size: 70%;
-		-webkit-transition: font-size 1s;
-		-moz-transition: font-size 1s;
-		-ms-transition: font-size 1s;
-		-o-transition: font-size 1s;
-		transition: font-size 1s;
 	}
 
 }
