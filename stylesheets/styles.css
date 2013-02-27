@@ -112,9 +112,9 @@ li:first-child {
 .content {
 	position: relative;
 	left: 50%;
-	width: 800px;
+	width: 750px;
 	margin: 1em auto 1em;
-	margin-left: -400px;
+	margin-left: -375px;
 }
 
 .logo {
