@@ -18,7 +18,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background: url(../images/vcr-black.jpg) top left repeat-y, blue;
+	background: url("../images/vcr-black.jpg") top left repeat-y, blue;
 	background-attachment: fixed;
 	-webkit-background-size: 100% 19440px;
 		 -moz-background-size: 100% 19440px;
@@ -119,9 +119,12 @@ li {
 }
 
 .logo {
-	margin-left: 1em;
+	display: block;
+	background: url('../images/logo@2x.png') top center no-repeat;
+	background-size: 100%;
 	width: 600px;
 	height: 350px;
+	margin-left: 1em;
 }
 
 .extend {
@@ -151,4 +154,5 @@ li {
 		left: 1em;
 		margin: 1em auto;
 	 }
+
 }
