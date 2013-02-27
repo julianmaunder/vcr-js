@@ -21,7 +21,7 @@
 git clone git://github.com/julianmaunder/vcr-js.git
 ```
 
-2 VCR.JS add jQuery and vcr.js to your html page.
+2 Add jQuery and vcr.js to your html page.
 
 ```html
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
