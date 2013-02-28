@@ -17,7 +17,16 @@ html, h1, h2, h3 {
 body {
 	margin: 0;
 	padding: 0;
-	width: 100%;
+}
+
+#vcr {
+	margin: -1em;
+	padding: 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 	background: url("../images/vcr-black.jpg") top left repeat-y, blue;
 	background-attachment: fixed;
 	-webkit-background-size: 100% 19440px;
@@ -110,7 +119,7 @@ li:first-child {
 		position: absolute;
 		top: 1em;
 		right: 1em;
-		padding-bottom: 1em;
+		padding: 1em;
 		max-width: 8em;
 	}
 
@@ -120,6 +129,7 @@ li:first-child {
 	width: 750px;
 	margin: 1em auto 1em;
 	margin-left: -375px;
+	padding-bottom: 1em;
 }
 
 .logo {

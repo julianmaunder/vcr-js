@@ -10,7 +10,7 @@ $(document).ready(function(){
 			var yPos = (Math.round(($window.scrollTop() * 100) / 1080) * 1080);
 			var coords = '0% -'+ yPos + 'px';
 
-			$('body').css({ backgroundPosition: coords });
+			$('#vcr').css({ backgroundPosition: coords });
 		});
 	});
 
