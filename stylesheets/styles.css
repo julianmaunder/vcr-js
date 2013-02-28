@@ -29,7 +29,6 @@ body {
 	right: 0;
 	background: url("../images/vcr-black.jpg") top left repeat-y, blue;
 	background-attachment: fixed;
-	opacity: 0.9999999; /* Firefox bug fix */
 	-webkit-background-size: 100% 19440px;
 		 -moz-background-size: 100% 19440px;
 			-ms-background-size: 100% 19440px;
