@@ -174,7 +174,7 @@ li:first-child {
 		display: none;
 	}
 
-	.mobile {
+	#mobile {
 		display: block;
 		width: 90%;
 		margin: 2em auto;
