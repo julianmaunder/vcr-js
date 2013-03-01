@@ -108,7 +108,7 @@ li:first-child {
 #github-data {
 		position: absolute;
 		top: 1em;
-		right: 1em;
+		right: 0em;
 		padding: 1em;
 		max-width: 8em;
 	}
