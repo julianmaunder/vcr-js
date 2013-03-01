@@ -131,6 +131,10 @@ li:first-child {
 	margin: 0 auto;
 }
 
+	.mobile {
+		display: none;
+	}
+
 @media screen and (max-width: 1200px) {
 
 	#github-data {
@@ -157,12 +161,27 @@ li:first-child {
 
 @media screen and (max-width: 640px) {
 
-	.logo {
-		width: 90%;
-	}
-
 	body, h2, h3 {
 		font-size: 24px;
+		background: blue;
+	}
+
+	.content {
+		display: none;
+	}
+
+	#github-data {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+		width: 90%;
+		margin: 2em auto;
+	}
+
+	.mobile a {
+		font-size: 80%;
 	}
 
 }
