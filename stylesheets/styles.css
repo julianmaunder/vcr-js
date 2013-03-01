@@ -111,6 +111,7 @@ li:first-child {
 		right: 0em;
 		padding: 1em;
 		max-width: 8em;
+		font-size: 70%;
 	}
 
 .content {
@@ -134,14 +135,6 @@ li:first-child {
 	#mobile {
 		display: none;
 	}
-
-@media screen and (max-width: 1200px) {
-
-	#github-data {
-		font-size: 70%;
-	}
-
-}
 
 @media screen and (max-width: 1024px) {
 
