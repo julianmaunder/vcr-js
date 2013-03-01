@@ -131,7 +131,7 @@ li:first-child {
 	margin: 0 auto;
 }
 
-	.mobile {
+	#mobile {
 		display: none;
 	}
 
@@ -180,7 +180,7 @@ li:first-child {
 		margin: 2em auto;
 	}
 
-	.mobile a {
+	#mobile a {
 		font-size: 80%;
 	}
 
