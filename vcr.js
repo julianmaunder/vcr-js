@@ -1,6 +1,5 @@
 // VCR.JS
 $(document).ready(function(){
-  $window = $(window);
   $('body').each(function(){
     $(window).scroll(function() {
       // Store scrollTop in variable
