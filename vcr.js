@@ -1,32 +1,24 @@
+// VCR.JS
+
 $(document).ready(function(){
 
-	//VCR.JS//
-	$window = $(window);
-                
-   $('body').each(function(){
-                    
-		$(window).scroll(function() {
+  $window = $(window);
 
-			var yPos = (Math.round(($window.scrollTop() * 100) / 1080) * 1080);
-			var coords = '0% -'+ yPos + 'px';
+  $('body').each(function(){
 
-			$('body').css({ backgroundPosition: coords });
-		});
-	});
+    $(window).scroll(function() {
 
-  //DEMO
-  $('#bottom').click(function(){
- 	$('#main').addClass('content-fixed');
-  $('html, body').stop(true).animate({scrollTop:$(document).height()}, 2000);
-  $('html, body').animate({scrollTop: 0 }, 0, function() {
-  	$('#main').removeClass('content-fixed');
+      // Store scrollTop in variable
+      var scrollPos = $window.scrollTop();
+      // Convert scrollTop to a multiple of 1080 (the height of each frame of the animation)
+      var yPos = (Math.round((scrollPos * 100) / 1080) * 1080);
+      // Store the new background position in a variable
+      var coords = '0% -'+ yPos + 'px';
+      // Apply new background position
+      $('body').css({ backgroundPosition: coords });
+
     });
+
   });
-    
-  //LAST COMMIT DATE
-  $.getJSON('https://api.github.com/repos/julianmaunder/vcr-js/commits', function(gitData) {
-  	$('#date').append((gitData[0].commit.author.date) + '<br>BY ' + (gitData[0].commit.author.name));
-	});
 
 });
-
