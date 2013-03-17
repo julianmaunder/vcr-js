@@ -15,10 +15,11 @@ $(document).ready(function(){
       // Store the new background position in a variable
       var coords = '0% -'+ yPos + 'px';
       // Apply new background position
-      $('body').css({ backgroundPosition: coords });
-
+      $('body').css("background-position", coords);
+      
     });
 
   });
 
 });
+
