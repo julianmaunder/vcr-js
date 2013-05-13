@@ -48,11 +48,3 @@ body {
 
 ###WARNING
 It's important to note that this probably won't work in very old browsers, it will also slow your site down.
-
-###To Do
-
-1.Convert to vanilla Javascript and add background position polyfill.
-
-2.Add more flavours of static.
-
-3.Record screencast.
