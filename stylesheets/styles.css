@@ -17,12 +17,12 @@ html, h1, h2, h3 {
 body {
 	margin: 0;
 	padding: 0;
-	background: url("../images/vcr-black.jpg") top left repeat-y, blue;
+	background: url("../images/vcr.jpg") top left repeat-y, blue;
 	background-attachment: fixed;
-	-webkit-background-size: 100% 19440px;
-		 -moz-background-size: 100% 19440px;
-			-ms-background-size: 100% 19440px;
-					background-size: 100% 19440px;
+	-webkit-background-size: 100% 18360px;
+		 -moz-background-size: 100% 18360px;
+			-ms-background-size: 100% 18360px;
+					background-size: 100% 18360px;
 }
 
 a {
