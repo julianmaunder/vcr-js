@@ -4,7 +4,7 @@
 }
 
 *::selection {
-	background: #FF39FD;
+	background: #DD298A;
 	}
 
 html, h1, h2, h3 {
@@ -27,14 +27,14 @@ body {
 
 a {
 	color: #ddd;
-	text-shadow: -1px 1px 0 #FF39EC;
+	text-shadow: -1px 1px 0 #DD298A;
 	font-style: normal;
 	text-decoration: none;	
 	margin: 0;
 }
 
 a:hover {
-	background: #FF39EC;
+	background: #DD298A;
 	font-style: normal;
 }
 
@@ -51,7 +51,7 @@ i {
 }
 
 em {
-	background: #FF39EC;
+	background: #DD298A;
 	font-style: normal;
 	padding: 0 0.2em;
 }
